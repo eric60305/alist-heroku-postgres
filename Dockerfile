@@ -1,5 +1,5 @@
-# FROM xhofe/alist:v2.6.0
-FROM xhofe/alist:v2.4.3
+FROM xhofe/alist:v2.6.0 
+# FROM xhofe/alist:v2.4.3 only read can use it
 LABEL MAINTAINER="i@nn.ci"
 
 ARG DATABASE_URL
