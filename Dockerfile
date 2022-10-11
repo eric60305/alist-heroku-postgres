@@ -1,11 +1,11 @@
 ## original src but cant use it
-# FROM xhofe/alist:v2.6.4
+FROM xhofe/alist:v2.6.4
 
 ## cant use it now (issue sol)
 # FROM xhofe/alist:v2.6.0 
 
 ## only read can use it
-FROM xhofe/alist:v2.4.3 
+# FROM xhofe/alist:v2.4.3 
 LABEL MAINTAINER="i@nn.ci"
 
 ARG DATABASE_URL
